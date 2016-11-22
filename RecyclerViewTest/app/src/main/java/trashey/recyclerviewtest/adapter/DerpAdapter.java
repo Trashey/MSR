@@ -78,10 +78,13 @@ public class DerpAdapter extends RecyclerView.Adapter<DerpAdapter.DerpHolder>  {
         private Button load;
 
         public DerpHolder(View itemView) {
-            super(itemView);
 
+            super(itemView);
             title = (TextView) itemView.findViewById(R.id.lbl_item_text);
             subTitle = (TextView) itemView.findViewById(R.id.lbl_item_sub_title);
+
+            //This function calls the given id as a list item icon.
+            // We'll be using this to call the brand cards from an array.
             thumbnail = (ImageView) itemView.findViewById(R.id.im_item_icon);
            // secondaryicon = (ImageView) itemView.findViewById(R.id.im_item_icon_secondary);
             // secondaryicon.setOnClickListener(this);

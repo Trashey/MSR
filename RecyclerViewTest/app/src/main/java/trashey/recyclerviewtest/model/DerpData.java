@@ -37,6 +37,28 @@ public class DerpData {
 
     };
 
+
+    // This is where we pull the list of all our currently supported chains and outlets.
+    // We'll be using this list to inform a function that calls and displays images from local storage.
+    // We will eventually be updating that function to build items on the fly.
+    private static final String[] brandNames = { "McDonalds",
+            "Subway",
+            "Wendy's",
+            "Pizza Hut",
+            "Pizza Pizza",
+            "Burger King",
+            "Arby's",
+            "Swiss Chalet",
+            "Harvey's",
+            "Chipotle",
+
+            //More to come, we'll sort this stuff too. :)
+
+
+    };
+
+
+
     private static final int icon = R.drawable.ic_tonality_black_36dp;
 
     private static final int[] icons = {android.R.drawable.ic_popup_reminder, android.R.drawable.ic_menu_add,
